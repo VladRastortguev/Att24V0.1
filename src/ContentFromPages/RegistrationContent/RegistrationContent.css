@@ -1,0 +1,99 @@
+body {
+    background-color: lightgray;
+}
+
+.headerBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regBlock {
+    background-color: #fff;
+    margin-top: 24vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 500px;
+    height: 350px;
+
+    border-radius: 14px;
+}
+
+.textElement {
+    text-align: center;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.textElement h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.textElement p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: gray;
+    padding: 0;
+    margin: 0;
+}
+
+.loginBlock {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginBlock p {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 19px;
+    margin-left: 6px;
+}
+
+.loginBlock input {
+    display: inline-block;
+    width: 230px;
+    height: 22px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    
+}
+
+.passwordBlock {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passwordBlock p {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+    margin-left: 7px;
+}
+
+.passwordBlock input {
+    display: inline-block;
+    width: 230px;
+    height: 22px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.regBtn {
+    margin-top: 20px;
+    padding: 10px 0 10px;
+    width: 302px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    font-size: 16px;
+    color: #fff;
+}
